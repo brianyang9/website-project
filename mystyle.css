@@ -1,0 +1,12 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+/* only when em element with class name of red_text which is also directly behind h1 element,  assign it into red color */
+h1 em.red_text{ 
+    color: darkred
+}
