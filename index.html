@@ -6,8 +6,19 @@
 </head>
 
 <body>
-    <h1>This is <em class="red_text">a</em> Heading</h1>
+    <h1>This is <em id="changing_background_color" class="red_text">a</em> Heading</h1>
+
     <p>This is first paragraph.</p>
+
     <p>This is <em class="red_text">second</em> paragraph.</p>
+
+    <button onclick="myFunction()">Click me</button>
+    <script>
+        function myFunction() {
+            <!-- document.getElementById("changing_color").innerHTML = "Hello World"; -->
+                document.getElementById("changing_background_color").style.backgroundColor = "yellow";
+        }
+    </script>
+
 </body>
 </html>
