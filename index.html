@@ -3,22 +3,18 @@
 <head>
     <title>Page Title</title>
     <link rel="stylesheet" href="mystyle.css">
+
+    <script src="myfunctions.js"></script>
+    <script src="myfunctions2.js"></script>
 </head>
 
 <body>
     <h1>This is <em id="changing_background_color" class="red_text">a</em> Heading</h1>
 
-    <p>This is first paragraph.</p>
+    <p id="first_sentence">This is first paragraph.</p>
+    <button onclick="biggertext()">make it bigger</button>
 
     <p>This is <em class="red_text">second</em> paragraph.</p>
-
     <button onclick="myFunction()">Click me</button>
-    <script>
-        function myFunction() {
-                < !--document.getElementById("changing_background_color").innerHTML = "Hello World"; -->
-                document.getElementById("changing_background_color").style.backgroundColor = "yellow";
-        }
-    </script>
-
 </body>
 </html>
